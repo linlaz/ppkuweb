@@ -38,6 +38,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-gray700: #374151;
   --bs-primary-rgb: 5, 116, 228;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -46,6 +47,7 @@
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
   --bs-dark-rgb: 33, 37, 41;
+  --bs-gray700-rgb: 55, 65, 81;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 33, 37, 41;
@@ -2938,6 +2940,23 @@ textarea.form-control-lg {
   --bs-btn-disabled-border-color: #212529;
 }
 
+.btn-gray700 {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #374151;
+  --bs-btn-border-color: #374151;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #2f3745;
+  --bs-btn-hover-border-color: #2c3441;
+  --bs-btn-focus-shadow-rgb: 85, 94, 107;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #2c3441;
+  --bs-btn-active-border-color: #29313d;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #374151;
+  --bs-btn-disabled-border-color: #374151;
+}
+
 .btn-outline-primary {
   --bs-btn-color: #0574E4;
   --bs-btn-border-color: #0574E4;
@@ -3071,6 +3090,23 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #212529;
   --bs-btn-disabled-bg: transparent;
   --bs-btn-disabled-border-color: #212529;
+  --bs-gradient: none;
+}
+
+.btn-outline-gray700 {
+  --bs-btn-color: #374151;
+  --bs-btn-border-color: #374151;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #374151;
+  --bs-btn-hover-border-color: #374151;
+  --bs-btn-focus-shadow-rgb: 55, 65, 81;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #374151;
+  --bs-btn-active-border-color: #374151;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #374151;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #374151;
   --bs-gradient: none;
 }
 
@@ -4686,6 +4722,15 @@ textarea.form-control-lg {
   color: #101214;
 }
 
+.alert-gray700 {
+  --bs-alert-color: #212731;
+  --bs-alert-bg: #d7d9dc;
+  --bs-alert-border-color: #c3c6cb;
+}
+.alert-gray700 .alert-link {
+  color: #1a1f27;
+}
+
 @keyframes progress-bar-stripes {
   0% {
     background-position-x: 1rem;
@@ -5088,6 +5133,20 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #141619;
   border-color: #141619;
+}
+
+.list-group-item-gray700 {
+  color: #212731;
+  background-color: #d7d9dc;
+}
+.list-group-item-gray700.list-group-item-action:hover, .list-group-item-gray700.list-group-item-action:focus {
+  color: #212731;
+  background-color: #c2c3c6;
+}
+.list-group-item-gray700.list-group-item-action.active {
+  color: #fff;
+  background-color: #212731;
+  border-color: #212731;
 }
 
 .btn-close {
@@ -6646,6 +6705,11 @@ textarea.form-control-lg {
   background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1)) !important;
 }
 
+.text-bg-gray700 {
+  color: #fff !important;
+  background-color: RGBA(55, 65, 81, var(--bs-bg-opacity, 1)) !important;
+}
+
 .link-primary {
   color: #0574E4 !important;
 }
@@ -6700,6 +6764,13 @@ textarea.form-control-lg {
 }
 .link-dark:hover, .link-dark:focus {
   color: #1a1e21 !important;
+}
+
+.link-gray700 {
+  color: #374151 !important;
+}
+.link-gray700:hover, .link-gray700:focus {
+  color: #2c3441 !important;
 }
 
 .ratio {
@@ -7161,6 +7232,11 @@ textarea.form-control-lg {
 .border-dark {
   --bs-border-opacity: 1;
   border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;
+}
+
+.border-gray700 {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-gray700-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-white {
@@ -8025,6 +8101,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-dark-rgb), var(--bs-text-opacity)) !important;
 }
 
+.text-gray700 {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-gray700-rgb), var(--bs-text-opacity)) !important;
+}
+
 .text-black {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
@@ -8114,6 +8195,11 @@ textarea.form-control-lg {
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-gray700 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-gray700-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-black {
