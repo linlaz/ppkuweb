@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
+$primary: #0574E4;
+$font-family-base: 'Inter', sans-serif;
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-colors: (
+  "gray700": #374151
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
