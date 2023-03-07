@@ -8,7 +8,7 @@
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-lg">
-    <a class="navbar-brand" href="#"><img src="wp-content/themes/ppkuweb/assets/img/Logo IPB.svg" alt="Logo IPB"></a>
+    <a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo IPB.svg" alt="Logo IPB"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,7 +42,7 @@
         <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button> -->
         <button class="btn btn-primary rounded-pill">
-            <img src="wp-content/themes/ppkuweb/assets/icon/search.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/icon/search.svg" alt="">
             Search
         </button>
       </form>
