@@ -6,11 +6,11 @@
   </div>
   <div class="row">
     <div class="col text-center">
-      <a href="#" class="text-decoration-none">
+      <a href="https://www.youtube.com/@officialdpkuppkuipb8381" target="_blank" class="text-decoration-none">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/icon/youtube.svg" alt="">
         <span class="text-gray700">OFFICIAL DPKU (PPKU) IPB</span>
       </a>
-      <a href="#" class="text-decoration-none ms-3">
+      <a href="https://www.instagram.com/ppkuipb/" target="_blank" class="text-decoration-none ms-3">
         <img src="<?php echo get_template_directory_uri(); ?>/assets/icon/instagram.svg" alt="">
         <span class="text-gray700">ppkuipb</span>
       </a>
