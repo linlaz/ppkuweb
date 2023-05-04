@@ -1,17 +1,17 @@
 <div class="container-lg">
   <div class="row my-4">
     <div class="col text-center">
-      <img src="wp-content/themes/ppkuweb/assets/img/Logo IPB.svg" alt="Logo IPB" width="366px">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Logo IPB.svg" alt="Logo IPB" width="366px">
     </div>
   </div>
   <div class="row">
     <div class="col text-center">
-      <a href="#" class="text-decoration-none">
-        <img src="wp-content/themes/ppkuweb/assets/icon/youtube.svg" alt="">
+      <a href="https://www.youtube.com/@officialdpkuppkuipb8381" target="_blank" class="text-decoration-none">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/icon/youtube.svg" alt="">
         <span class="text-gray700">OFFICIAL DPKU (PPKU) IPB</span>
       </a>
-      <a href="#" class="text-decoration-none ms-3">
-        <img src="wp-content/themes/ppkuweb/assets/icon/instagram.svg" alt="">
+      <a href="https://www.instagram.com/ppkuipb/" target="_blank" class="text-decoration-none ms-3">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/icon/instagram.svg" alt="">
         <span class="text-gray700">ppkuipb</span>
       </a>
     </div>
@@ -25,7 +25,7 @@
       <p class="text-end">Email: ppku-ipb@apps.ipb.ac.id<br/>Phone: 0251-8627387</p>
     </div>
   </div>
-  <div class="row">
+  <div class="row mb-5">
     <div class="col text-center text-gray700">©2023 Direktorat Sistem Informasi dan Transformasi Digital IPB.</div>
   </div>
 </div>
