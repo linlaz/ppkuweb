@@ -96,7 +96,6 @@
     </section>
 </div>
 
-
 <section class="container py-4">
     <div class="title">
         <h1 class="fw-bolder">Gallery</h1>
