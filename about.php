@@ -2,7 +2,7 @@
 
 <?php get_header();?>
 
-<div class="container">
+<div class="container my-5">
   <div class="row align-items-center py-0 py-md-3 py-lg-5">
     <div class="col-12 col-lg-6 order-1 order-md-0 my-3">
       <h1 class="fw-bold text-center text-md-start">PPKU IPB</h1>
