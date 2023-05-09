@@ -27,6 +27,7 @@ $spacers: (
 
 $negative-spacers: if($enable-negative-margins, negativify-map($spacers), null);
 
+
 .banner {
   background-image: url('../assets/img/banner-home.png');
   height: 80vh;
